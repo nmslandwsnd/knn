@@ -17,3 +17,5 @@ predictions=knn.predict(xtest)
 print("accuracy_score",accuracy_score(ytest,predictions))
 print("confusion_matrix",confusion_matrix(ytest,predictions))
 print("classification_report",classification_report(ytest,predictions))
+
+print(test_size)
