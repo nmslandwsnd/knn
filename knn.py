@@ -19,3 +19,4 @@ print("confusion_matrix",confusion_matrix(ytest,predictions))
 print("classification_report",classification_report(ytest,predictions))
 
 print(test_size)
+print(y)
